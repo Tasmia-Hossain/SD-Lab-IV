@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    <link rel="stylesheet" href="./profile.css"/>
+    <style>
+        .number-input {
+            position: relative;
+            width: 150px;
+        }
+        .number-input input[type=number] {
+            width: 100%;
+            padding: 5px;
+            text-align: center;
+        }
+        .number-input:hover input[type=number]::-webkit-inner-spin-button,
+        .number-input:hover input[type=number]::-webkit-outer-spin-button {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="propic">
+            <img src="propic.jpeg" alt="Profile Picture">
+        </div>
+        <div class="name">Tasmia Hossain</div>
+        <div class="about">
+            <h1>About</h1>
+            <p>Hello I am Tasmia. Experienced Software Engineer with a demonstrated history of working in the computer software industry. Strong engineering professional with a Bachelor's degree focused in Computer Science and Engineering from Ahsanullah University of Science and Technology.</p>
+        </div>
+        <div class="checker">
+            <h1>Prime Checker</h1>
+            <form action="result.php" method="post">
+                <div class="number-input"></div>
+                    <label for="number">Input a number to check for prime: </label>
+                    <input type="number" id="number" name="number">
+                    <input type="submit" name="submit" value="Submit Number">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

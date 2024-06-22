@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+.cls1{
+    height: 50vh;
+    width: 100vw;
+    background-color: red;
+}
+
+.cls2{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.cls2 > .item1{
+    width: 33.33vw;
+    background-color: green;
+}
+
+.cls2 > .item2{
+    width: 33.33vw;
+    background-color: blue;
+}
+
+.cls2 > .item3{
+    width: 33.33vw;
+    background-color: orange;
+}
